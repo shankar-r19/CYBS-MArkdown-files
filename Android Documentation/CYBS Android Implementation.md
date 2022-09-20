@@ -26,3 +26,29 @@ Note: AR is not currently supported using Unity Remote 5 but you can test out MR
   <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic%202.png" width= "400" height="300">
 </picture>
 </p>
+4. Once the MRTK Profile has been cloned, now clone only thr Camera profile. 
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic3.png" width= "400" height="300">
+</picture>
+</p>
+5. Navigate the Inspector panel to the camera system section and expand the Camera Settings Providers section.
+</br>
+Click Add Camera Settings Provider and expand the newly added New camera setting entry.
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic4.png" width= "400" height="300">
+</picture>
+</p>
+Click Add Camera Settings Provider and expand the newly added New camera setting entry.
+
+6. Select the Unity AR Camera Settings provider
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic5.png" width= "400" height="300">
+</picture>
+</p>
+
+MRTK should now be compatible with ARUnity. Next we'll add the ARSession Origin and ARSession Objects to use the AR feautures. 
+
+### Adding ARSession Origin and ARSession 
