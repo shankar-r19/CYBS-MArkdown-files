@@ -1,5 +1,5 @@
 
-# Steps to port CYBS into Andorid(Camera + MRTK)
+# 1.1 Steps to port CYBS into Andorid(Camera + MRTK)
 
 
 ## 1. Running the project on Android 
