@@ -45,10 +45,52 @@ Click Add Camera Settings Provider and expand the newly added New camera setting
 6. Select the Unity AR Camera Settings provider
 <p align="center">
 <picture>
-  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic5.png" width= "400" height="300">
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic5.png" width= "450" height="300">
 </picture>
 </p>
 
 MRTK should now be compatible with ARUnity. Next we'll add the ARSession Origin and ARSession Objects to use the AR feautures. 
 
 ### Adding ARSession Origin and ARSession 
+
+1. Switch platform to either Android or iOS in the Unity Build Settings.
+
+
+2. Follow Recommended Settings in the MRTK pop up window.
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic6.png" width= "450" height="300">
+</picture>
+</p>
+
+
+
+3. Ensure the associated XR Plug-in management provider is enabled.In XR Plugin management, turn this on ARCore for Android.
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/pic%207.png" width= "450" height="300">
+</picture>
+</p>
+4. > If not done already: Install the AR Foundations Package and AR Core package for deployment from Package Manager. 
+5. Add an AR Sessions Origin Object and an AR Sessions Object in the Unity Hierarchy. 
+
+
+
+<p align="center">
+<picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/ARSO.png" width= "300" height="400">
+</picture>
+</p>
+
+6. Drag Main Camera to the AR Session origin object. In the inspector change the component to Main Camera instead of AR. Diable the AR Camera. 
+<p align="center">
+<picture>
+ <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/image10.png" width= "200" height="40">
+  </PICTURE>
+  <picture>
+  <img align="center"  src="https://github.com/shankar-r19/CYBS-MArkdown-files/blob/main/Android%20Documentation/Images/AR%20Camera.png" width= "200" height="50">
+
+  
+  
+</picture>
+</p>
